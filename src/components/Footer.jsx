@@ -1,4 +1,5 @@
 import { Email, GitHub, LinkedIn , Twitter } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 import '../styles/Footer.css'
 import React from 'react';
 
