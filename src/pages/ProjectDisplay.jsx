@@ -5,7 +5,6 @@ import  GitHubIcon  from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
-
  const { id }  = useParams();
  const project = ProjectList[id];
 
@@ -14,14 +13,9 @@ function ProjectDisplay() {
     <h1>{project.name}</h1>
     <img src={project.image} alt=''/>
     <p> <b> Skills : </b>{project.skills}</p>
-
-
     <Link to={project.githubLink} target="_blank" rel="noopener noreferrer">
         <GitHubIcon />
       </Link>
-
-
-
     </div>
   );
 };
