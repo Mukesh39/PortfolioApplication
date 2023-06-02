@@ -1,5 +1,6 @@
 import React from 'react';
 import { Email, GitHub, LinkedIn, Twitter } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
 function Home() {
@@ -9,11 +10,12 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Mukesh </h2>
         <div className="prompt">
-          <p>A Software Developer with a Passion for Learning and Creating</p>
-          <GitHub/>
-          <Twitter/>
-          <LinkedIn/>
-          <Email/>
+          <p>Aspiring Software Developer with a Passion for Learning and Creating Big</p>
+
+          <Link to="https://github.com/Mukesh39"><GitHub/></Link>
+          <Link to="https://twitter.com/Mukesh_95_"><Twitter/></Link>
+          <Link to="https://www.linkedin.com/in/kumarmukesh95/"><LinkedIn/></Link>
+          <a href="mailto:muk.786422@gmail.com"><Email/></a>
         </div>
       </div>
 
