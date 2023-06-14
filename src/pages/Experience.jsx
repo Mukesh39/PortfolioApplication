@@ -20,9 +20,10 @@ function Experience() {
         >
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-            Kendriya Vidyalaya Number - 2 , Patiala , Punjab
+            Kendriya Vidyalaya No-2 , Patiala , Punjab
           </h3>
-          <p> 10Th and 12Th</p>
+          <p> 10th and 12th </p>
+          <p>Patiala , Punjab , India </p>
         </VerticalTimelineElement>
 
 
@@ -33,10 +34,11 @@ function Experience() {
           icon={<SchoolIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           CCET - Chandigarh college of Engineering  and Technology
+           CCET - Chandigarh College of Engineering  and Technology
           </h3>
-          <h4 className="verticle-timeline-element-subtitle">Bachelor's Degree </h4>
+          <h4 className="verticle-timeline-element-subtitle">BE</h4>
           <p>Computer Science and Engineering</p>
+          <p>Chandigarh , India </p>
         </VerticalTimelineElement>
 
 
@@ -48,51 +50,91 @@ function Experience() {
           icon={<WorkIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           Busy  in Studies and Skilling and FreeLance Apart From Computer science 
+           Busy in Studies and FreeLance in Social Media and Later shifted To technology Specially In Web Developement  - Learnt Coding.
           </h3>
-          <h4 className="verticle-timeline-element-subtitle"> Various Social Media work  </h4>
-          <p> Made Youtube Channel completely Monetised </p>
+          <h4 className="verticle-timeline-element-subtitle"> Freelance In Social Media </h4>
+          <p>Online</p>
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
-          date="2022 - Present"
+          date="2023 - Present"
           iconStyle={{ background: "#e9d35b", color: '#fff' }}
           icon={<WorkIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           Front-Developement in React 
+           Front-End Developement in React - Project no.1 
           </h3>
-          <h4 className="verticle-timeline-element-subtitle">Porject Number 1  </h4>
-          <p>Explanation of The ProJect Number 1 </p>
+          <h4 className="verticle-timeline-element-subtitle">Porject Imdb clone  </h4>
+          <p> Description : User-friendly interface that mimics the popular IMDb website based on ReactJs.</p>
+          <p> Features : Fetch movie data from the TMDb API and dynamically render it on the page , Displaying movie listings, movie details, ratings, search functionality and More. </p>
+          <p> Tech used : HTML , CSS3 , ReactJs and JavaScript , Tailwind CSS , TMDB Api. </p>
         </VerticalTimelineElement>
 
 
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
-          date="2022 - Present"
+          date="2023 - Present"
           iconStyle={{ background: "#e9d35b", color: '#fff' }}
           icon={<WorkIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           Front-Developement in React 
+          Front-End Developement in React - Project no.2
           </h3>
-          <h4 className="verticle-timeline-element-subtitle">Porject Number 2  </h4>
-          <p>Explanation of The ProJect Number 2 </p>
+          <h4 className="verticle-timeline-element-subtitle">EasyShop - Ecommerce Application</h4>
+          <p>Description : ecommerce application based on React , Redux that gives facility to shop online.  </p>
+          <p> Features : Includes features of Selection ,View ,Cart summary and Payment details & Coupon discounts.     </p>   
+          <p>Database : Sample data given , Can be scaled  using data Provided by External API . </p>  
+          <p>Tech used : HTML, CSS3 , JavaScript , ReactJs , Redux and Material UI </p>                                                                               
+                                                       
+          
+                                                                                                 
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
-          date="2022 - Present"
+          date="2023 - Present"
           iconStyle={{ background: "#e9d35b", color: '#fff' }}
           icon={<WorkIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           Front-Developement in React 
+           MINOR PROJECTS
           </h3>
-          <h4 className="verticle-timeline-element-subtitle">Porject Number 3  </h4>
-          <p>Explanation of The ProJect Number 3 </p>
+          <h4 className="verticle-timeline-element-subtitle">Image Gallery App - Infinite Image Scroll web App</h4>
+          <p>Description : Endless captivating images for seamless browsing, providing constant inspiration and visual delight.</p>
+          <p>Features : Fetching data From API and Showing In app, Infinite Scroll and Nice UI.</p>
+
+
+          <h4 className="verticle-timeline-element-subtitle">Weather application</h4>
+          <p>Description : Fetches accurate weather information based on user search using the OpenWeather API.</p>
+          <p>Features : Fetching Real Time Data from Api , Displays temperature, humidity, and wind speed conditions for the searched location.</p>
+
+
+          <h4 className="verticle-timeline-element-subtitle">QrcodeGenerator</h4>
+          <p>Description: Application allows users to generate customized QR codes, download them, and adjust their size.</p>
+          <p>Features : Generate QR codes for various types of data, including URLs, text, email addresses, phone numbers, and more. </p>
+
+          
+        </VerticalTimelineElement>
+
+
+
+
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: '#fff' }}
+          icon={<WorkIcon />}>
+          {/* Content of Vertical Timeline Element */}
+          <h3 className="verticle-timeline-element-title">
+          Project Running </h3>
+          <h4 className="verticle-timeline-element-subtitle">Working on Gpt chatBot and Learning Backend and Completing the Full stack </h4>
+          <p> </p>
+                                                                                       
+                                                       
+          
+                                                                                                 
         </VerticalTimelineElement>
 
       </VerticalTimeline>

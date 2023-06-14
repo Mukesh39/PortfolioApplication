@@ -8,9 +8,9 @@ function Home() {
     <div className='home'>
       {/* About Section */}
       <div className="about">
-        <h2> Hi, My Name is Mukesh </h2>
+        <h2> Hi, My Name is Mukesh Kumar </h2>
         <div className="prompt">
-          <p>Aspiring Software Developer with a Passion for Learning and Creating Big</p>
+          <p>Passionate front-end developer skilled in HTML, CSS, and JavaScript, seeking opportunities to contribute to innovative web projects and learn from experienced professionals.</p>
 
           <Link to="https://github.com/Mukesh39"><GitHub/></Link>
           <Link to="https://twitter.com/Mukesh_95_"><Twitter/></Link>
@@ -25,20 +25,20 @@ function Home() {
         <ol className="list">
           {/* Front-End Skills */}
           <li className="item">
-            <h2>Front-End</h2>
-            <span>ReactJS, Redux, HTML, CSS, JavaScript, NPM, Bootstrap, MaterialUI, TailwindCSS, StyledComponents</span>
+            <h2>Front-End Skills </h2>
+            <span>ReactJS, Redux, HTML, CSS, JavaScript, NPM, Git, GitHub , Bootstrap, MaterialUI, TailwindCSS</span>
           </li>
 
-          {/* Back-End Skills */}
+          {/* Back-End Skills 
           <li className="item">
             <h2>Back-End</h2>
             <span>NodeJS</span>
-          </li>
+          </li> */}
 
           {/* Language Skills */}
           <li className="item">
-            <h2>Languages</h2>
-            <span>C++, JavaScript, HTML, Java, C, TypeScript</span>
+            <h2> Tools and Languages</h2>
+            <span>C++ , JavaScript , Vscode , Postman </span>
           </li>
         </ol>
       </div>
