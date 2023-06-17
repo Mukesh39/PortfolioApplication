@@ -78,7 +78,7 @@ export const ProjectList = [
 
 {
     name:"QrCodeGenerator",
-    image: Qr,
+    image:Qrcode,
     skills: "JavaScript , HTML , CSS , ReactJs ",
     githubLink : "https://github.com/Mukesh39",
     deployedLink:"https://uniqueqrcodegenerator.netlify.app" ,

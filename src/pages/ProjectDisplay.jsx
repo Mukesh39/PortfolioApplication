@@ -18,14 +18,9 @@ function ProjectDisplay() {
      <Link to={project.githubLink} target="_blank" rel="noopener noreferrer">
       <GitHubIcon />
       </Link>
-
-     <Link to={project.deployedLink} target="_blank" rel="noopener noreferrer">
-      <AssistantDirectionIcon></AssistantDirectionIcon> </Link> 
-   
-   
+    <h2> <b>SEE HERE</b></h2> <Link to={project.deployedLink} target="_blank" rel="noopener noreferrer">
+     <AssistantDirectionIcon></AssistantDirectionIcon> </Link> 
       </div>
-
-
   );
 };
 
