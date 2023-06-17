@@ -3,6 +3,7 @@ import { useParams , Link } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectsList.jsx';
 import  GitHubIcon  from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css';
+import AssistantDirectionIcon from '@mui/icons-material/AssistantDirection';
 
 function ProjectDisplay() {
  const { id }  = useParams();
@@ -13,10 +14,18 @@ function ProjectDisplay() {
     <h1>{project.name}</h1>
     <img src={project.image} alt=''/>
     <p> <b> Skills : </b>{project.skills}</p>
-    <Link to={project.githubLink} target="_blank" rel="noopener noreferrer">
-        <GitHubIcon />
+    
+     <Link to={project.githubLink} target="_blank" rel="noopener noreferrer">
+      <GitHubIcon />
       </Link>
-    </div>
+
+     <Link to={project.deployedLink} target="_blank" rel="noopener noreferrer">
+      <AssistantDirectionIcon></AssistantDirectionIcon> </Link> 
+   
+   
+      </div>
+
+
   );
 };
 

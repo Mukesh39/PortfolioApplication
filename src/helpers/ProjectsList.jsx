@@ -11,6 +11,9 @@ import tmdb2 from '../assets/tmdb2.png';
 import Trending from '../assets/Trending.png';
 import Weather from '../assets/Weather.png';
 import weather2 from '../assets/weather2.png' 
+import Qr from '../assets/Qr.webp';
+import gallery from '../assets/gallery2.jpg'
+
 
 
 
@@ -36,16 +39,19 @@ export const ProjectList = [
     name:"imdb clone ",
     image: movieim,
     skills: "JavaScript , HTML , CSS , React , Tailwind-CSS , TMDB-API",
-    githubLink : "https://github.com"
+    githubLink : "https://github.com/Mukesh39",
+    deployedLink:"https://imdbmovieapplication.netlify.app",
+
 }
 
 ,
 
 {
     name:"Easy-Shop Ecommerce ",
-    image: movieim,
-    skills: "JavaScript , HTML , CSS , React , Redux , ",
-    githubLink : "https://github.com"
+    image:EasyShop,
+    skills: "JavaScript , HTML , CSS , React , Redux",
+    githubLink : "https://github.com/Mukesh39",
+    deployedLink:"",
 }
 
 ,
@@ -53,32 +59,29 @@ export const ProjectList = [
 {
     name:"Weather Application",
     image: weather2,
-    skills: "JavaScript , HTML , CSS",
-    githubLink : "https://github.com"
+    skills: "JavaScript , HTML , CSS , ReactJs",
+    githubLink : "https://github.com/Mukesh39",
+    deployedLink:"https://weatherforecast24by7.netlify.app",
 }
 
 
 ,
 
 {
-    name:"movies app ",
-    image: imdbb,
-    skills: "JavaScript , HTML , CSS",
-    githubLink : "https://github.com"
+    name:"Image Gallery - Infinite Scroll",
+    image: ImageGalley,
+    skills: "JavaScript , HTML , CSS , ReactJs",
+    githubLink : "https://github.com/Mukesh39",
+    deployedLink:"" ,
 }
-
-
-
-
 ,
-
-
 
 {
     name:"QrCodeGenerator",
-    image: Qrcode,
-    skills: "JavaScript , HTML , CSS",
-    githubLink : "https://github.com"
+    image: Qr,
+    skills: "JavaScript , HTML , CSS , ReactJs ",
+    githubLink : "https://github.com/Mukesh39",
+    deployedLink:"https://uniqueqrcodegenerator.netlify.app" ,
 } 
 
 ]
