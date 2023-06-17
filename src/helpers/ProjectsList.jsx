@@ -51,7 +51,7 @@ export const ProjectList = [
     image:EasyShop,
     skills: "JavaScript , HTML , CSS , React , Redux",
     githubLink : "https://github.com/Mukesh39",
-    deployedLink:"",
+    deployedLink:"https://easyshopecommerce.netlify.app/",
 }
 
 ,
@@ -72,7 +72,7 @@ export const ProjectList = [
     image: ImageGalley,
     skills: "JavaScript , HTML , CSS , ReactJs",
     githubLink : "https://github.com/Mukesh39",
-    deployedLink:"" ,
+    deployedLink:"https://imagegalleryapplication.netlify.app" ,
 }
 ,
 
