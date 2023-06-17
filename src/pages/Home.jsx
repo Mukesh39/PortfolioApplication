@@ -10,7 +10,7 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Mukesh Kumar </h2>
         <div className="prompt">
-          <p>Passionate front-end developer skilled in HTML, CSS, and JavaScript, seeking opportunities to contribute to innovative web projects and learn from experienced professionals.</p>
+          <p>Passionate front-end developer skilled in HTML, CSS, and JavaScript,ReactJs ,JavaScript Libraries... seeking opportunities to contribute to innovative web projects and learn from experienced professionals.</p>
 
           <Link to="https://github.com/Mukesh39"><GitHub/></Link>
           <Link to="https://twitter.com/Mukesh_95_"><Twitter/></Link>
