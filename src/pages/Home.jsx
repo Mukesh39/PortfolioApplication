@@ -38,7 +38,7 @@ function Home() {
           {/* Language Skills */}
           <li className="item">
             <h2> Tools and Languages</h2>
-            <span>C++ , JavaScript , Vscode , Postman , ChatGpt , Google Bard </span>
+            <span>JavaScript , Vscode , Postman , ChatGpt , Google Bard </span>
           </li>
         </ol>
       </div>
