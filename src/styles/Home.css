@@ -14,9 +14,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('../assets/5.png');
+    /* background-image:url('../assets/5.png'); */
     color: #f0f0f0;
+  }
+
+  .about {
     
+    background-image: url(' https://1.bp.blogspot.com/-zO8hwvt7iMk/XAVxt4aoQvI/AAAAAAAAwa4/D5m3ApKkAAABZteHWWv_5uzTn8X7JaDxgCPcBGAYYCw/s728/7T9364v.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
 

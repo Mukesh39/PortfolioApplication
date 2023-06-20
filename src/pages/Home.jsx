@@ -3,6 +3,7 @@ import { Email, GitHub, LinkedIn, Twitter } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 
+
 function Home() {
   return (
     <div className='home'>
@@ -47,3 +48,5 @@ function Home() {
 }
 
 export default Home;
+
+

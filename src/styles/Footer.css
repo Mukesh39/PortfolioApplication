@@ -6,15 +6,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 100px;
     margin-top: 200px;
+
   }
-  
+
+  /* .footer {
+    background-image: url("../assets/tree.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+   */
   .socialMedia svg {
     color: white;
     margin: 20px;
     font-size: 70px;
     cursor: pointer;
+    
   }
   
   .footer p {
