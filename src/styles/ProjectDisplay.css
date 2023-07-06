@@ -15,14 +15,18 @@
   .project img {
     width: 400px;
     border-radius: 10px;
+    margin-top: 2rem;
   }
   
   .project p {
     font-size: 40px;
     color: #3e497a;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   
   .project svg {
     font-size: 60px;
     color: #3e497a;
+    margin-top: 1rem;
   }

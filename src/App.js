@@ -6,6 +6,7 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+import Resume from './pages/Resume';
  
 function App() {
   return (
@@ -17,7 +18,10 @@ function App() {
             <Route exact path='/projects' element = {<Projects/>}/>
             <Route exact path='/project/:id' element = {<ProjectDisplay/>}/>
             <Route exact path='/experience' element = {<Experience/>}/>
+            <Route exact path='/experience' element = {<Experience/>}/>
+            <Route exact path='/resume' element = {<Resume/>}/>
           </Routes>
+          
        <Footer/>
        </Router>
     </div>
