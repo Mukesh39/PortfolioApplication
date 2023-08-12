@@ -87,10 +87,31 @@ function Experience() {
           <p> Features : Includes features of Selection ,View ,Cart summary and Payment details & Coupon discounts.     </p>   
           <p>Database : Sample data given , Can be scaled  using data Provided by External API . </p>  
           <p>Tech used : HTML, CSS3 , JavaScript , ReactJs , Redux and Material UI </p>                                                                               
-                                                       
-          
+                                              
                                                                                                  
         </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: '#fff' }}
+          icon={<WorkIcon />}>
+          {/* Content of Vertical Timeline Element */}
+          <h3 className="verticle-timeline-element-title">
+          Front-End Developement in React - Project no.3
+          </h3>
+          <h4 className="verticle-timeline-element-subtitle"> Portfolio application </h4>
+          <p>Description : Front-End Portfolio application based on React used for Showcasing the Profile and Skills.  </p>
+          <p> Features : Pages - skills , Experience , Resume Download , Project section showcased together at one place </p>     
+          <p>Tech used : HTML, CSS3 , JavaScript , ReactJs , Vertical components , Responsive Design </p>                                                                               
+                                              
+                                                                                                 
+        </VerticalTimelineElement>
+
+
+      
+
 
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
@@ -130,11 +151,7 @@ function Experience() {
           <h3 className="verticle-timeline-element-title">
           Project Running </h3>
           <h4 className="verticle-timeline-element-subtitle">Working on Gpt chatBot and Learning Backend and Completing the Full stack </h4>
-          <p> </p>
-                                                                                       
-                                                       
-          
-                                                                                                 
+          <p> </p>                                                                                    
         </VerticalTimelineElement>
 
       </VerticalTimeline>

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Resume.css'
-import m from '../pdf/m.pdf'; // Replace with the actual path to your resume PDF file
+import n from '../pdf/n.pdf'; // Replace with the actual path to your resume PDF file
 import temp from '../assets/temp.png'
 const Resume = () => {
   const handleDownload = () => {
-    window.open(m, '_blank'); // Open the resume PDF in a new tab for download
+    window.open(n, '_blank'); // Open the resume PDF in a new tab for download
   };
   return (
     <div>
