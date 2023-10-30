@@ -1,9 +1,14 @@
+
+.body {
+  
+}
+
 .home {
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
-
+    
   }
   
   .about {
@@ -77,10 +82,11 @@
     flex-direction: column;
     align-items: center;
     margin-top: 4rem;
+    
   }
   
   .skills h1 {
-    color: #3e497a;
+    color: black;
     margin-bottom: 4rem;
   }
   
@@ -88,6 +94,7 @@
     list-style: none;
     width: 60%;
     margin-top:6rem ;
+    color: rgb(5, 69, 147);
 
   }
   

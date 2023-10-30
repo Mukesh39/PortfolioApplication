@@ -16,7 +16,7 @@ function Home() {
           <Link to="https://github.com/Mukesh39"><GitHub/></Link>
           <Link to="https://twitter.com/Mukesh_95_"><Twitter/></Link>
           <Link to="https://www.linkedin.com/in/kumarmukesh95/"><LinkedIn/></Link>
-          <a href="mailto:muk.786422@gmail.com"><Email/></a>
+          <a href="mailto:muk.786422@gmail.com"><Email/> </a>
         </div>
       </div>
 
