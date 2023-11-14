@@ -27,7 +27,7 @@ function Home() {
           {/* Front-End Skills */}
           <li className="item">
             <h2>Front-End Skills </h2>
-            <span>ReactJS, Redux, HTML, CSS, JavaScript, NPM, Git, GitHub , Bootstrap, MaterialUI, TailwindCSS</span>
+            <span>ReactJS, Redux, HTML, CSS, JavaScript(ES6+) , NPM, Git, GitHub , Bootstrap, Material-UI, Tailwind-CSS , Styled-Components , Semantic UI ,CSS-Animations </span>
           </li>
 
           {/* Back-End Skills 
@@ -38,8 +38,15 @@ function Home() {
 
           {/* Language Skills */}
           <li className="item">
+            <h2> Currently Backend Learning & Familiar with </h2>
+            <span>API+REST-API , Express.Js , Nodejs </span>
+          </li>
+
+
+          {/* Language Skills */}
+          <li className="item">
             <h2> Tools and Languages</h2>
-            <span>JavaScript , Vscode , Postman , ChatGpt , Google Bard </span>
+            <span>JavaScript , C++, Vscode , Postman , ChatGpt , Google Bard , Atom ,Github , netlify etc </span>
           </li>
         </ol>
       </div>
