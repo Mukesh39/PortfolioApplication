@@ -13,7 +13,7 @@ import Weather from '../assets/Weather.png';
 import weather2 from '../assets/weather2.png' 
 import Qr from '../assets/Qr.webp';
 import gallery from '../assets/gallery2.jpg'
-
+import socialmedia from '../assets/socialmedia.png';
 
 
 
@@ -83,5 +83,15 @@ export const ProjectList = [
     githubLink : "https://github.com/Mukesh39",
     deployedLink:"https://uniqueqrcodegenerator.netlify.app" ,
 } 
+
+
+,{
+    name:"socialmediaapp - UI ",
+    image:socialmedia,
+    skills: "JavaScript , HTML , CSS , ReactJs , Animation  ",
+    githubLink : "https://github.com/Mukesh39/socialmediapp",
+    deployedLink:"https://socialmediaappui.netlify.app" ,
+} 
+
 
 ]
