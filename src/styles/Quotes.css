@@ -1,0 +1,96 @@
+/* Quotes component styles */
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto&display=swap');
+/* Style the Carousel */
+
+*{
+
+  margin: zero;
+  box-sizing: border-box;
+}
+
+
+.carousel {
+    max-width: 100%;
+    background: #e55c4c;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+  
+  }
+  
+  /* Style Carousel items and images */
+  .carousel-item {
+    height: 500px; /* Adjust the height as needed */
+  }
+  
+  .carousel-item img {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    margin-left:37rem; 
+    animation: shine 2s infinite;
+    box-shadow: 0 0 0 transparent;
+  }
+  
+  /* Style Carousel captions */
+  .carousel-caption {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: shine 2s infinite;
+    box-shadow: 0 0 0 transparent; 
+
+
+  }
+  
+  .carousel-caption p {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Ephesis', cursive  , 'Roboto', sans-serif; 
+  }
+
+
+  .carsel h3 {
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background:#e55c4c;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 70px; 
+  }
+  
+
+  @keyframes shine {
+    /* Define keyframes for the animation */
+    0% {
+      /* Initial state of the box-shadow */
+      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
+    }
+    50% {
+      /* Middle state of the box-shadow */
+      box-shadow: 0 0 20px 10px #fff; /* Adjust the color and size of the glow */
+    }
+    100% {
+      /* Final state of the box-shadow */
+      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
+    }
+  }

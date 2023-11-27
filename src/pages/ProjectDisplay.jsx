@@ -11,16 +11,25 @@ function ProjectDisplay() {
 
   return (
     <div className='project'>
+    <div className="projectDetails">
     <h1>{project.name}</h1>
-    <img src={project.image} alt=''/>
     <p> <b> Skills : </b>{project.skills}</p>
     
+  <div className="projectDetails2">
      <Link to={project.githubLink} target="_blank" rel="noopener noreferrer">
       <GitHubIcon />
       </Link>
-    <h2> <b>SEE HERE</b></h2> <Link to={project.deployedLink} target="_blank" rel="noopener noreferrer">
+    <h2> <b>Project Look </b></h2> <Link to={project.deployedLink} target="_blank" rel="noopener noreferrer">
      <AssistantDirectionIcon></AssistantDirectionIcon> </Link> 
-      </div>
+     </div>
+
+     </div>
+    <div className="imgContainer">
+     <img src={project.image} alt=''/>
+     </div>
+
+    </div>
+    
   );
 };
 

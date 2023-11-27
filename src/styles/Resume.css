@@ -4,33 +4,42 @@
     box-sizing: border-box;
 }
 #h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+
 }
 .resume {
-    height: 40rem;
-    width: 40rem;
-    border: 2px solid aqua;
+    height: 35rem;
+    width: 30rem;
+    border: 1px solid aqua;
     font-size: large;
     margin: auto auto;
     margin-top: 3rem;
     text-align: center;
     border-radius: 1rem;
-    background-color: #0dcb8c;  
-    transition: transform 0.3s;
+    background-color: #c6cecb;  
+    transition: transform 0.2s;
+    animation: shine 2s infinite;
+    box-shadow: 0 0 0 transparent;
+
+  }
+
+
+  .resumePage {
+    background: url("https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+    margin: 20px;
+    height: 60rem;
   }
   .resume:hover {
-    transform: scale(.8);
+    transform: scale(0.89);
   }
 .resume img {
     width:25remrem ;
   height: 25rem;
   object-fit: cover;
   z-index: 2;
+  margin-top: 1rem;
 }
 .resume h1 {
     font-weight: bold;
@@ -61,5 +70,23 @@
     }
     100% {
       transform: translateX(0);
+    }
+  }
+
+  /* This is Box animation shine  */
+
+  @keyframes shine {
+    /* Define keyframes for the animation */
+    0% {
+      /* Initial state of the box-shadow */
+      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
+    }
+    50% {
+      /* Middle state of the box-shadow */
+      box-shadow: 0 0 20px 10px #fff; /* Adjust the color and size of the glow */
+    }
+    100% {
+      /* Final state of the box-shadow */
+      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
     }
   }

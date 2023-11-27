@@ -1,26 +1,58 @@
 .project {
-    width: 100%;
+    max-width: 100%;
     height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: rgb(217, 217, 216);
+    margin: 100px;
+    border-radius: 10px;
+  }
+
+  .projectDetails {
+    max-width: 40%;
+    padding: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .projectDetails2 {
+    margin-top: 5rem;
+  }
+
+  .projectDetails h2 {
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+  .imgContainer {
+    max-width: 40%;
+    padding: 30px;
   }
   
   .project h1 {
     margin-top: 50px;
-    color: #3e497a;
+    color: black;
     font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
   }
+
+
   .project img {
     width: 400px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-top: 2rem;
   }
   
   .project p {
-    font-size: 40px;
-    color: #3e497a;
+    font-size: 20px;
+    color: black;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -28,5 +60,5 @@
   .project svg {
     font-size: 60px;
     color: #3e497a;
-    margin-top: 1rem;
+
   }

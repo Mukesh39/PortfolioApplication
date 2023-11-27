@@ -37,6 +37,7 @@ export const ProjectList = [
 
 {
     name:"imdb clone ",
+    AboutTheProject : " ",
     image: movieim,
     skills: "JavaScript , HTML , CSS , React , Tailwind-CSS , TMDB-API",
     githubLink : "https://github.com/Mukesh39",
@@ -48,6 +49,7 @@ export const ProjectList = [
 
 {
     name:"Easy-Shop Ecommerce ",
+    AboutTheProject : " ",
     image:EasyShop,
     skills: "JavaScript , HTML , CSS , React , Redux",
     githubLink : "https://github.com/Mukesh39",
@@ -56,8 +58,9 @@ export const ProjectList = [
 
 ,
 
-{
+{   
     name:"Weather Application",
+    AboutTheProject : " ",
     image: weather2,
     skills: "JavaScript , HTML , CSS , ReactJs",
     githubLink : "https://github.com/Mukesh39",
@@ -69,6 +72,7 @@ export const ProjectList = [
 
 {
     name:"Image Gallery - Infinite Scroll",
+    AboutTheProject : " ",
     image: ImageGalley,
     skills: "JavaScript , HTML , CSS , ReactJs",
     githubLink : "https://github.com/Mukesh39",
@@ -78,6 +82,7 @@ export const ProjectList = [
 
 {
     name:"QrCodeGenerator",
+    AboutTheProject : " ",
     image:Qrcode,
     skills: "JavaScript , HTML , CSS , ReactJs ",
     githubLink : "https://github.com/Mukesh39",
@@ -87,6 +92,7 @@ export const ProjectList = [
 
 ,{
     name:"socialmediaapp - UI ",
+    AboutTheProject : " ",
     image:socialmedia,
     skills: "JavaScript , HTML , CSS , ReactJs , Animation  ",
     githubLink : "https://github.com/Mukesh39/socialmediapp",
@@ -95,3 +101,6 @@ export const ProjectList = [
 
 
 ]
+
+
+

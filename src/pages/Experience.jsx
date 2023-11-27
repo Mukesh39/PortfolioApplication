@@ -3,6 +3,7 @@ import { VerticalTimelineElement, VerticalTimeline } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
+import '../styles/Experience.css'
 
 function Experience() {
   return (
@@ -50,10 +51,11 @@ function Experience() {
           icon={<WorkIcon />}>
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
-           Busy in Studies and FreeLance in Social Media and Later shifted To technology Specially In Web Developement  - Learnt Coding.
-          </h3>
-          <h4 className="verticle-timeline-element-subtitle"> Freelance In Social Media </h4>
-          <p>Online</p>
+           Freelance
+           </h3>
+          <h4 className="verticle-timeline-element-subtitle"> Freelance and Completed Bootcamp Web dev</h4>
+          <p>Busy is studies and freelance in social media and my love and Enthusiasm attracted to learn the technology used behind these great Social media aaps , Web aaps - In Web Development 
+          ,Learnt and done rigorous training more than 6 months under great Mentors , ReactJs and Build Industrial Level web aaps from scratch.  - Now ready to contribute with 1 Year of Experience</p>
         </VerticalTimelineElement>
 
 
@@ -66,7 +68,7 @@ function Experience() {
           <h3 className="verticle-timeline-element-title">
            Front-End Developement in React - Project no.1 
           </h3>
-          <h4 className="verticle-timeline-element-subtitle">Porject Imdb clone  </h4>
+          <h4 className="verticle-timeline-element-subtitle">Project Imdb clone  </h4>
           <p> Description : User-friendly interface that mimics the popular IMDb website based on ReactJs.</p>
           <p> Features : Fetch movie data from the TMDb API and dynamically render it on the page , Displaying movie listings, movie details, ratings, search functionality and More. </p>
           <p> Tech used : HTML , CSS3 , ReactJs and JavaScript , Tailwind CSS , TMDB Api. </p>
@@ -150,11 +152,14 @@ function Experience() {
           {/* Content of Vertical Timeline Element */}
           <h3 className="verticle-timeline-element-title">
           Project Running </h3>
-          <h4 className="verticle-timeline-element-subtitle">Working on Gpt chatBot and Learning Backend and Completing the Full stack </h4>
+          <h4 className="verticle-timeline-element-subtitle">Working on New Project Based on MERN (Fullstack)</h4>
           <p> </p>                                                                                    
         </VerticalTimelineElement>
 
       </VerticalTimeline>
+      <div className="experience-Certified">
+      {/*  here paste all the certificates for achievemnets */}
+      </div>
     </div>
   );
 }

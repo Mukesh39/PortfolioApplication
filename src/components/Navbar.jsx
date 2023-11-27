@@ -28,9 +28,13 @@ useEffect(()=>{
 
     <div className="links">
         <Link to = "/">Home</Link>
+        <a href="#skills">Skills</a>
         <Link to = "/projects">Projects</Link>
         <Link to = "/experience">Experience</Link>
         <Link to = "/resume">Resume</Link>
+       
+        <a href="#Aboutme">About me</a>
+       
     </div>
     </div>
   ); 

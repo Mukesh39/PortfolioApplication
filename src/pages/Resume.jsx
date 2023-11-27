@@ -7,7 +7,7 @@ const Resume = () => {
     window.open(MukeshResume, '_blank'); // Open the resume PDF in a new tab for download
   };
   return (
-    <div>
+    <div className='resumePage'>
     <h1 id = "h1">Resume</h1>
     <div className='resume'>
       {/* Display your resume content here */}

@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Resume from './pages/Resume';
+import Footerimg from './components/Footerimg';
  
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
           </Routes>
           
        <Footer/>
-       </Router>
+       <Footerimg/>
+        </Router>
     </div>
   );
 }
