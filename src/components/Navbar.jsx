@@ -32,8 +32,9 @@ useEffect(()=>{
         <Link to = "/projects">Projects</Link>
         <Link to = "/experience">Experience</Link>
         <Link to = "/resume">Resume</Link>
+        <Link to = "/" >About me</Link>
+
        
-        <a href="#Aboutme">About me</a>
        
     </div>
     </div>

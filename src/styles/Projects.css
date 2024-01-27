@@ -93,3 +93,51 @@
       height: 300px;
     }
   }
+
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .projects {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 2rem;
+      margin-top: 2rem;
+     
+    }
+  
+   
+    .projects .projectTitle {
+      text-align: center;
+      color: #3e497a;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    
+    .projectList {
+      width: 100%;
+      height: auto;
+      display: grid;
+      place-items: center;
+      border-radius: 2px;
+    }
+    
+    /* MENU ITEM STYLING */
+    
+    .projectItem {
+      border-radius: 5px;
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
+      text-align: center;
+      opacity: 0;
+      animation: zoomIn 0.5s forwards;
+      
+    }
+
+   }

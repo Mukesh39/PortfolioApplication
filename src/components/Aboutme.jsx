@@ -18,8 +18,6 @@ const Aboutme = () => {
                   </div>
                     <div className="social-icons">
                           {/* Replace the links with your social media profiles */}
-                          <a href="#"><img src="
-                          "/></a>
                           <a href="https://github.com/Mukesh39"><img src={GitHub} alt="" /></a>
                           <a href="https://twitter.com/Mukesh_95_"><img src={twitter} alt="" /></a>
                           <a href="https://www.linkedin.com/in/kumarmukesh95/"><img src={LinkedIn} alt="" srcset="" /></a>

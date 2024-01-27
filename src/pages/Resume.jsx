@@ -15,7 +15,7 @@ const Resume = () => {
       {/* Add your resume sections, details, and styling */}
       {/* Download button */}
       <img src = {temp} alt='imgres'/>
-      <button  type="button" class="btn btn-primary btn-lg"  onClick={handleDownload}>DOWNLOAD RESUME</button>
+      <button  type="button" className="btn btn-primary btn-lg"  onClick={handleDownload}>DOWNLOAD RESUME</button>
     </div>
     </div>
   );

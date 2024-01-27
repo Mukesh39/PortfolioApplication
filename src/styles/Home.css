@@ -197,11 +197,21 @@
 
 
   
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (max-width: 600px) {
     .about h2 {
       font-size: 40px;
     }
+
+    .about p {
+      font-size: 40px;
+    }
   
+    .about img {
+       height: 15rem;
+       width: 15rem;
+       margin-top: 15rem;
+  
+    } 
     .about .prompt {
       margin-top: 10px;
       font-size: 20px;
@@ -218,11 +228,210 @@
     .skills h2 {
       font-size: 30px;
     }
-  }
+  } */
+
+
 
 
 
   
+
+
+
+/* Base styles for all screen sizes */
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Styles for small screens go here */
+
+
+  .about {
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+  }
+
+
+  .about {
+    
+    background-image: url('../assets/clouds.png');
+    background-size: contain;
+    background-repeat: repeat;
+    position: relative;
+  
+  }
+  
+
+  .about h2 {
+    font-family: 'Ephesis', cursive  , 'Roboto', sans-serif; 
+    font-size: 2rem;
+    color: black;
+    height: 20px;
+
+  }
+
+  .about img {
+    width: 7rem;
+    height:5rem;
+    margin-top: 10px;
+  }
+
+  .about p {
+    font-family: 'Ephesis', cursive  , 'Roboto', sans-serif; 
+    font-size: 2rem;
+    color: black;
+    
+
+  }
+  
+  .about .prompt {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+
+  
+  .about .prompt {
+    animation: slideIn 0.5s ease-in-out forwards;
+  }
+  
+  .prompt svg {
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+  }
+
+
+
+
+
+
+  .skillsSection {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .skillsSection h1 {
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  .skillsa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    border: 1px solid gold;
+    margin-top: 30px;
+
+  }
+  
+
+  .skillsa Button {
+    margin: 10px;
+    background: #e55c4c;
+    padding: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: bold;
+
+  }
+
+  .category {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+  }
+
+  .category h2{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+  }
+  
+  
+
+
+  
+  .skills {
+    font-size: 10px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
+  }
+  
+  .skills h1 {
+    color: black;
+    margin-bottom: 2rem;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+    margin-top:2rem ;
+    color: rgb(5, 69, 147);
+
+  }
+  
+  .list span {
+    font-size: 20px;
+    margin-top: 4rem;
+  }
+
+
+
+  .skills .list .item h2 {
+    margin-bottom: 2rem;
+  }
+
+
+
+  .skills .list .item {
+    margin-bottom: 2rem;
+  }
+
+
+
+
+  .skills .list .item span {
+    margin-bottom: 2rem;
+  }
+
+
+
+}
+
+
+
+
+
+
 
 
 
