@@ -1,9 +1,13 @@
 .navbar {
   max-width: 100%;
   height: 70px;
-  background: rgb(178,11,214);
-background: linear-gradient(101deg, rgba(178,11,214,1) 0%, rgba(207,60,255,1) 11%, rgba(132,5,222,1) 50%);
-
+  background: rgb(178, 11, 214);
+  background: linear-gradient(
+    101deg,
+    rgba(178, 11, 214, 1) 0%,
+    rgba(207, 60, 255, 1) 11%,
+    rgba(132, 5, 222, 1) 50%
+  );
 }
 
 .links {
@@ -89,19 +93,18 @@ background: linear-gradient(101deg, rgba(178,11,214,1) 0%, rgba(207,60,255,1) 11
   }
 }
 
-
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-
-
-
   .navbar {
     max-width: 100%;
     height: 60px;
-    background: rgb(178,11,214);
-  background: linear-gradient(101deg, rgba(178,11,214,1) 0%, rgba(207,60,255,1) 11%, rgba(132,5,222,1) 50%);
-  
+    background: rgb(178, 11, 214);
+    background: linear-gradient(
+      101deg,
+      rgba(178, 11, 214, 1) 0%,
+      rgba(207, 60, 255, 1) 11%,
+      rgba(132, 5, 222, 1) 50%
+    );
   }
-
 
   .toggleButton {
     width: 100%;
@@ -110,5 +113,4 @@ background: linear-gradient(101deg, rgba(178,11,214,1) 0%, rgba(207,60,255,1) 11
     align-items: center;
     justify-content: flex-end;
   }
-
- }
+}

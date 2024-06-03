@@ -1,19 +1,12 @@
 .experience {
-
-  margin:10px;
- background-color:#eae6e6;
- font-family: 'Times New Roman', Times, serif;
- margin-bottom: 100px;
- 
-
+  margin: 10px;
+  background-color: #eae6e6;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 100px;
 }
 
-
-
-.experience h3 , h4 {
-
-    font-size: 20px;
-    font-weight: bold;
-   
-  
-  }
+.experience h3,
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
