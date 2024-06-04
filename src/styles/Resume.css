@@ -1,150 +1,139 @@
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 #h1 {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 2rem;
-
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 .resume {
-    height: 35rem;
-    width: 30rem;
-    border: 1px solid aqua;
-    font-size: large;
-    margin: auto auto;
-    margin-top: 3rem;
-    text-align: center;
-    border-radius: 1rem;
-    background-color: #c6cecb;  
-    transition: transform 0.2s;
-    animation: shine 2s infinite;
-    box-shadow: 0 0 0 transparent;
+  height: 35rem;
+  width: 30rem;
+  border: 1px solid aqua;
+  font-size: large;
+  margin: auto auto;
+  margin-top: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #c6cecb;
+  transition: transform 0.2s;
+  animation: shine 2s infinite;
+  box-shadow: 0 0 0 transparent;
+}
 
-  }
-
-
-  .resumePage {
-    background: url("https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-    margin: 20px;
-    height: 60rem;
-  }
-  .resume:hover {
-    transform: scale(0.89);
-  }
+.resumePage {
+  background: url("https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+  margin: 20px;
+  height: 60rem;
+}
+.resume:hover {
+  transform: scale(0.89);
+}
 .resume img {
-    width:25remrem ;
+  width: 25remrem;
   height: 25rem;
   object-fit: cover;
   z-index: 2;
   margin-top: 1rem;
 }
 .resume h1 {
-    font-weight: bold;
-} 
+  font-weight: bold;
+}
 .btn {
-    border: 4px solid red;
-    border-radius: 10px;
-    margin-top: 4rem;
-    font-size: 40px;
-    cursor: pointer;
-    z-index: 2;
-    transition: transform 0.3s;
+  border: 4px solid red;
+  border-radius: 10px;
+  margin-top: 4rem;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.3s;
 }
 
 .btn:hover {
-    animation: shake-animation 0.5s infinite;
+  animation: shake-animation 0.5s infinite;
+}
+
+@keyframes shake-animation {
+  0% {
+    transform: translateX(0);
   }
-  
-  @keyframes shake-animation {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-10px) rotate(-5deg);
-    }
-    75% {
-      transform: translateX(10px) rotate(5deg);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  25% {
+    transform: translateX(-10px) rotate(-5deg);
   }
-
-  /* This is Box animation shine  */
-
-  @keyframes shine {
-    /* Define keyframes for the animation */
-    0% {
-      /* Initial state of the box-shadow */
-      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
-    }
-    50% {
-      /* Middle state of the box-shadow */
-      box-shadow: 0 0 20px 10px #fff; /* Adjust the color and size of the glow */
-    }
-    100% {
-      /* Final state of the box-shadow */
-      box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
-    }
+  75% {
+    transform: translateX(10px) rotate(5deg);
   }
+  100% {
+    transform: translateX(0);
+  }
+}
 
+/* This is Box animation shine  */
 
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
+@keyframes shine {
+  /* Define keyframes for the animation */
+  0% {
+    /* Initial state of the box-shadow */
+    box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
+  }
+  50% {
+    /* Middle state of the box-shadow */
+    box-shadow: 0 0 20px 10px #fff; /* Adjust the color and size of the glow */
+  }
+  100% {
+    /* Final state of the box-shadow */
+    box-shadow: 0 0 10px 0px #fff; /* Adjust the color and size of the glow */
+  }
+}
 
-
-
-    #h1 {
-      text-align: center;
-      margin-top: 2rem;
-      font-size: 2rem;
-  
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
   }
   .resume {
-      height: 17rem;
-      width: 10rem;
-      border: 1px solid aqua;
-      font-size: large;
-      margin: auto auto;
-      margin-top: 3rem;
-      text-align: center;
-      border-radius: 1rem;
-      background-color: grey;  
-      transition: transform 0.2s;
-      animation: shine 2s infinite;
-      box-shadow: 0 0 0 transparent;
-  
-    }
-  
-  
-    .resumePage {
-      background: url("https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
-      margin: 20px;
-      height: 30rem;
-    }
-    .resume:hover {
-      transform: scale(0.89);
-    }
+    height: 17rem;
+    width: 10rem;
+    border: 1px solid aqua;
+    font-size: large;
+    margin: auto auto;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: grey;
+    transition: transform 0.2s;
+    animation: shine 2s infinite;
+    box-shadow: 0 0 0 transparent;
+  }
+
+  .resumePage {
+    background: url("https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif");
+    margin: 20px;
+    height: 30rem;
+  }
+  .resume:hover {
+    transform: scale(0.89);
+  }
   .resume img {
-      width:8rem ;
-    height:7rem;
+    width: 8rem;
+    height: 7rem;
     object-fit: cover;
     z-index: 2;
     margin-top: 1rem;
   }
   .resume h1 {
-      font-weight: bold;
-  } 
-  .resume .btn {
-      border: 4px solid red;
-      border-radius: 10px;
-      margin-top: 2rem;
-      font-size: 10px;
-      cursor: pointer;
-      z-index: 2;
-      transition: transform 0.3s;
+    font-weight: bold;
   }
-
-   }
+  .resume .btn {
+    border: 4px solid red;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-size: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 0.3s;
+  }
+}

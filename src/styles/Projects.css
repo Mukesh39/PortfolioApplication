@@ -1,143 +1,130 @@
 .projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-top: 2rem;
+}
+
+.projects .projectTitle {
+  text-align: center;
+  color: #3e497a;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.projectList {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  border-radius: 2px;
+}
+
+/* MENU ITEM STYLING */
+
+.projectItem {
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  opacity: 0;
+  animation: zoomIn 0.5s forwards;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+}
+
+.projectItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.projectItem .bgImage {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectItem h1 {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .projectList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    width: 100%;
+  }
+  .projectItem {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .projects {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 4rem;
     margin-top: 2rem;
-   
+    margin-top: 2rem;
   }
 
- 
   .projects .projectTitle {
     text-align: center;
     color: #3e497a;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bolder;
   }
-  
+
   .projectList {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     border-radius: 2px;
   }
-  
+
   /* MENU ITEM STYLING */
-  
+
   .projectItem {
     border-radius: 5px;
     width: 300px;
     height: 300px;
-    margin: 40px;
+    margin: 10px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
     text-align: center;
     opacity: 0;
     animation: zoomIn 0.5s forwards;
-    
   }
-
-  
-  @keyframes zoomIn {
-    0% {
-      opacity: 0;
-      transform: scale(0.6);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(0.8);
-    }
-  }
-  
-  .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-  }
-  
-  .projectItem .bgImage {
-    
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-  
-  .projectItem h1 {
-    font-size: 25px;
-  }
-  
-  @media only screen and (max-width: 1300px) {
-    .projectList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
-      width: 100%;
-    }
-    .projectItem {
-      width: 300px;
-      height: 300px;
-    }
-  }
-
-
-  @media only screen and (min-width: 320px) and (max-width: 767px) {
-
-
-    .projects {
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin-top: 2rem;
-      margin-top: 2rem;
-     
-    }
-  
-   
-    .projects .projectTitle {
-      text-align: center;
-      color: #3e497a;
-      font-size: 30px;
-      font-weight: bolder;
-    }
-    
-    .projectList {
-      width: 100%;
-      height: auto;
-      display: grid;
-      place-items: center;
-      border-radius: 2px;
-    }
-    
-    /* MENU ITEM STYLING */
-    
-    .projectItem {
-      border-radius: 5px;
-      width: 300px;
-      height: 300px;
-      margin: 10px;
-      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.8);
-      text-align: center;
-      opacity: 0;
-      animation: zoomIn 0.5s forwards;
-      
-    }
-
-   }
+}
