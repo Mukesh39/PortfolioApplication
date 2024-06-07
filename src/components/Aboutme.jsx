@@ -11,7 +11,7 @@ const Aboutme = () => {
       <div className="aboutmeSec1">
         <div className="leftSec">
           <div className="image-container">
-            <img src={Mukesh} alt="My Image" />
+            <img src={Mukesh} alt="mukesh" />
           </div>
           <div className="social-icons">
             {/* Replace the links with your social media profiles */}

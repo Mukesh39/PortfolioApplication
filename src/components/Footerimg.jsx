@@ -6,7 +6,7 @@ function Footerimg() {
   return (
     <div class="container">
       <div class="imgBottom">
-        <img src={foot} alt="Your Image" />
+        <img src={foot} alt="footer" />
       </div>
     </div>
   );
