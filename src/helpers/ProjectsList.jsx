@@ -1,4 +1,3 @@
-import EasyShop from "../assets/EasyShop.png";
 import ImageGalley from "../assets/ImageGalley.png";
 import movieim from "../assets/movieim.png";
 import Qrcode from "../assets/Qrcode.png";
