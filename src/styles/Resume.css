@@ -6,7 +6,8 @@
 #h1 {
   text-align: center;
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 3.5rem;
+  color: white;
 }
 .resume {
   height: 35rem;
@@ -28,9 +29,9 @@
   margin: 20px;
   height: 60rem;
 }
-.resume:hover {
-  transform: scale(0.89);
-}
+/* .resume:hover {
+  transform: scale(0.99);
+} */
 .resume img {
   width: 25remrem;
   height: 25rem;
@@ -49,6 +50,11 @@
   cursor: pointer;
   z-index: 2;
   transition: transform 0.3s;
+  color: white;
+}
+
+.btn a {
+  color: aliceblue;
 }
 
 .btn:hover {

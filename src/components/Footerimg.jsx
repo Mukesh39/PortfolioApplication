@@ -4,8 +4,8 @@ import "../styles/Footerimg.css";
 
 function Footerimg() {
   return (
-    <div class="container">
-      <div class="imgBottom">
+    <div className="container">
+      <div className="imgBottom">
         <img src={foot} alt="footer" />
       </div>
     </div>

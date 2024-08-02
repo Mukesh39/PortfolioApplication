@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
+
+//destructure the image , name , id given by projects
 function ProjectItem({ image, name, id }) {
   const navigate = useNavigate();
 
