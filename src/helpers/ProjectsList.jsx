@@ -5,6 +5,7 @@ import weather2 from "../assets/weather2.png";
 import socialmedia from "../assets/socialmedia.png";
 import meShop from "../assets/meShop.png";
 import portfolio from "../assets/portfolio.png";
+import voteapp from "../assets/voteapp.png";
 
 //Read and understand
 
@@ -84,5 +85,15 @@ export const ProjectList = [
     skills: "JavaScript , HTML , CSS , ReactJs , Animation  ",
     githubLink: "https://github.com/Mukesh39/socialmediapp",
     deployedLink: "https://socialmediaappui.netlify.app",
+  },
+
+  {
+    name: " VotingApp Backend",
+    AboutTheProject: " ",
+    image: voteapp,
+    skills:
+      "JavaScript , Node.js , Express , PostMan for Testing , HTTP  , Passport , Jwt ,jwt-authentication, middlewares etc",
+    githubLink: "https://github.com/Mukesh39/VoteApp",
+    deployedLink: "https://github.com/Mukesh39/VoteApp",
   },
 ];

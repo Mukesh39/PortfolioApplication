@@ -1,125 +1,152 @@
+/* Base styles (mobile first) */
 .project {
-  max-width: 100%;
-  height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-color: rgb(217, 217, 216);
-  margin: 100px;
-  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #fffafa;
+  margin-top: 50px;
 }
 
 .projectDetails {
-  max-width: 40%;
+  text-align: center;
   padding: 30px;
-  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.projectDetails h1 {
+  font-size: 1.5em;
 }
 
 .projectDetails2 {
-  margin-top: 5rem;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
-.projectDetails h2 {
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.projectDetails2 a {
+  margin: 0 20px;
+}
+
+.projectDetails2 .github {
+  margin-left: 20px;
+}
+
+.netlify {
+  margin-left: 20px;
 }
 
 .imgContainer {
-  max-width: 40%;
-  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.project h1 {
-  margin-top: 50px;
-  color: black;
-  font-size: 35px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
+.imgContainer img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project img {
-  width: 400px;
-  border-radius: 20px;
-  margin-top: 2rem;
+.projectDetails2 .iconGithub {
+  font-size: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
-.project p {
-  font-size: 20px;
-  color: black;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+.projectDetails2 .iconnetlify {
+  font-size: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
-.project svg {
-  font-size: 60px;
-  color: #3e497a;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+/* Tablet and up (min-width: 768px) */
+@media (min-width: 768px) {
   .project {
-    max-width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(217, 217, 216);
-    margin: 10px;
-    border-radius: 10px;
+    padding: 20px;
   }
 
   .projectDetails {
-    max-width: 100%;
-    padding: 10px;
-    margin-bottom: 1rem;
+    text-align: left;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .projectDetails h1 {
+    font-size: 2em;
   }
 
   .projectDetails2 {
-    margin-top: 2rem;
-    align-items: center;
-    text-align: center;
+    margin-top: 30px;
   }
 
-  .projectDetails h2 {
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  .projectDetails2 a {
+    margin: 0 15px;
+  }
+
+  .projectDetails2 .github {
+    margin: 0 15px;
+  }
+
+  .projectDetails2 .netlify {
+    margin: 0 15px;
   }
 
   .imgContainer {
-    max-width: 100%;
-    padding: 10px;
+    margin-top: 30px;
+  }
+}
+
+/* Desktop and up (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .project {
+    padding: 30px;
   }
 
-  .project h1 {
-    margin-top: 10px;
-    color: black;
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+  .projectDetails {
+    max-width: 900px;
   }
 
-  .project img {
-    width: 100%;
-    border-radius: 20px;
-    margin-top: 2rem;
+  .projectDetails h1 {
+    font-size: 2.5em;
   }
 
-  .project p {
-    font-size: 20px;
-    color: black;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  .projectDetails2 {
+    margin-top: 40px;
   }
 
-  .project svg {
-    font-size: 60px;
-    color: #3e497a;
+  .projectDetails2 a {
+    margin: 0 20px;
+  }
+
+  .imgContainer {
+    margin-top: 40px;
+  }
+}
+
+/* Large desktop and up (min-width: 1440px) */
+@media (min-width: 1440px) {
+  .project {
+    padding: 40px;
+  }
+
+  .projectDetails {
+    max-width: 1200px;
+  }
+
+  .projectDetails h1 {
+    font-size: 3em;
+  }
+
+  .projectDetails2 {
+    margin-top: 50px;
+  }
+
+  .projectDetails2 a {
+    margin: 0 25px;
+  }
+
+  .imgContainer {
+    margin-top: 50px;
   }
 }

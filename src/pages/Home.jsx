@@ -59,38 +59,3 @@ function Home() {
 }
 
 export default Home;
-
-// Data information used for
-//  {/* Skills Section */}
-//  <div className="skills">
-//  <h1>Skills</h1>
-//  <ol className="list">
-//    {/* Front-End Skills */}
-//    <li className="item">
-//      <h2>Front-End Skills </h2>
-//      <span>ReactJS, Redux, HTML, CSS, JavaScript(ES6+) , NPM, Git, GitHub , Bootstrap, Material-UI, Tailwind-CSS , Styled-Components , Semantic UI ,CSS-Animations </span>
-//      </li>
-
-//    {/* Back-End Skills
-//    <li className="item">
-//      <h2>Back-End</h2>
-//      <span>NodeJS</span>
-//    </li> */}
-
-//    {/* Language Skills */}
-//    <li className="item">
-//      <h2> Currently Backend Learning & Familiar with </h2>
-//      <span>API+REST-API , Express.Js , Nodejs </span>
-//    </li>
-
-//    {/* Language Skills */}
-//    <li className="item">
-//      <h2> Tools and Languages</h2>
-//      <span>JavaScript , C++, Vscode , Postman , ChatGpt , Google Bard , Atom ,Github , netlify etc </span>
-//    </li>
-//  </ol>
-//  </div>
-
-// Write the Qualities Posses
-// * Softskilsls
-// *Problem solvihg

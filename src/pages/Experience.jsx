@@ -14,6 +14,28 @@ function Experience() {
       {/* Vertical Timeline */}
       <VerticalTimeline lineColor="#3e497e">
         {/* Vertical Timeline Element */}
+
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          {/* Content of Vertical Timeline Element */}
+          <h3 className="verticle-timeline-element-title">Experience</h3>
+          <h4 className="verticle-timeline-element-subtitle">
+            Freelance 1 Year(Frontend (MERN)) <br />
+            Programming 2 years <br />
+            Internship done One at Oops Info solutions Chandigarh in React.js +
+            Node.js - worked on Live Project( 5 Months - certi ) <br />
+            Tech Educator on <a href="https://x.com/Mukesh_95_">Twitter</a> and
+            Documented Journey.
+            <br />
+            My<a href="https://github.com/Mukesh39"> github </a> profile
+          </h4>
+          <p> </p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
           date="2012 - 2014"
@@ -199,6 +221,34 @@ function Experience() {
           <p>
             Features : Generate QR codes for various types of data, including
             URLs, text, email addresses, phone numbers, and more.{" "}
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          {/* Content of Vertical Timeline Element */}
+          <h3 className="verticle-timeline-element-title">Backend Project</h3>
+          <h4 className="verticle-timeline-element-subtitle">
+            VotingApp Backend
+          </h4>
+          <p>
+            VoteApp: A comprehensive platform for managing elections
+            effortlessly.
+          </p>
+          <p>
+            Features: <br />
+            Voting: Secure and easy-to-use voting system for casting votes.{" "}
+            <br />
+            Profile Management: Allows users to create and manage their
+            profiles, ensuring personalized and secure access. <br />
+            Candidate Management: Admin tools for adding, updating, and managing
+            candidate information seamlessly. <br />
+            VoteApp simplifies the election process, ensuring a smooth and
+            efficient experience for all users.
           </p>
         </VerticalTimelineElement>
 
