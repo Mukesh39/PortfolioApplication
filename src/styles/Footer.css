@@ -36,10 +36,14 @@
   font-family: "Ephesis", cursive, "Roboto", sans-serif;
 }
 
-.myInfo {
+.myInfo  {
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
+}
+
+#myinfo p {
+  color: white;
 }
 
 .name h3 {
