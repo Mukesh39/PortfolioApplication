@@ -25,7 +25,7 @@ function Footer() {
       <div className="name">
         <h3>Mukesh Kumar</h3>
       </div>
-      <div className="myInfo">
+      <div className="myInfo" id="myinfo">
         <p> &copy; 2023 Mukesh Kumar No copyright issues. </p>
         <p> Feel Free To copy. If You Need any help ,</p>
         <p>Ping me !</p>

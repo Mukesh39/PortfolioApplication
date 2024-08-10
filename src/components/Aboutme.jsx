@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Aboutme.css"; // Import CSS file for styling
-import Mukesh from "../assets/Mukesh.png";
+import Mukesh from "../assets/mukeshkkk.png";
 import GitHub from "../assets/icons8-github.gif";
 import twitter from "../assets/icons8-twitter.gif";
 import LinkedIn from "../assets/icons8-linkedin-circled.gif";
