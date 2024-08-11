@@ -6,6 +6,7 @@ import socialmedia from "../assets/socialmedia.png";
 import meShop from "../assets/meShop.png";
 import portfolio from "../assets/portfolio.png";
 import voteapp from "../assets/voteapp.png";
+import restaurent from "../assets/rest.png";
 
 //Read and understand
 
@@ -95,5 +96,14 @@ export const ProjectList = [
       "JavaScript , Node.js , Express , PostMan for Testing , HTTP  , Passport , Jwt ,jwt-authentication, middlewares etc",
     githubLink: "https://github.com/Mukesh39/VoteApp",
     deployedLink: "https://github.com/Mukesh39/VoteApp",
+  },
+
+  {
+    name: "Restaurent website(Frontend App)",
+    AboutTheProject: " ",
+    image: restaurent,
+    skills: "JavaScript , CSS, HTML , Animations , Netlify , Single Page App ",
+    githubLink: "https://github.com/Mukesh39/Restaurent-Website1",
+    deployedLink: "https://restaurent247.netlify.app",
   },
 ];
