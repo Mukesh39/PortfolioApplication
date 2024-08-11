@@ -27,12 +27,16 @@ export const skillsInformation = [
     ],
   },
   {
-    category: "Backend Learning & Familiar with",
+    category: "Backend Skills & Familiar with",
     skills: [
       "Node-Js",
       "Express.js",
       "API",
       "REST-API",
+      "JWT",
+      "Postman",
+      "Authentication and Athorisation",
+      "Sessions and Cookies",
       // ... other skills
     ],
   },
@@ -40,6 +44,7 @@ export const skillsInformation = [
     category: "Tools and Languages",
     skills: [
       "JavaScript",
+      "C++",
       "Vscode",
       "Postman",
       "ChatGpt ",
@@ -47,6 +52,23 @@ export const skillsInformation = [
       "Atom",
       "Github",
       "netlify ",
+
+      // ... other skills
+    ],
+  },
+
+  {
+    category: "Soft skills ",
+    skills: [
+      "Communication",
+      "Leadership",
+      "Teamwork",
+      "Adaptibity",
+      "Fast Learner",
+      "Creativity",
+      "Problem solving",
+      "Time Management",
+
       // ... other skills
     ],
   },

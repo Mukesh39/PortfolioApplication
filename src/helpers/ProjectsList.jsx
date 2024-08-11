@@ -99,10 +99,10 @@ export const ProjectList = [
   },
 
   {
-    name: "Restaurent App - Frontend App",
+    name: "Restaurent website(Frontend App)",
     AboutTheProject: " ",
     image: restaurent,
-    skills: "JavaScript , CSS , HTML and Animations etc",
+    skills: "JavaScript , CSS, HTML , Animations , Netlify , Single Page App ",
     githubLink: "https://github.com/Mukesh39/Restaurent-Website1",
     deployedLink: "https://restaurent247.netlify.app",
   },
