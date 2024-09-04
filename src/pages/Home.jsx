@@ -7,7 +7,7 @@ import Quotes from "../components/Quotes";
 import Aboutme from "../components/Aboutme";
 import { skillsInformation } from "../helpers/Data.js";
 import { Button } from "react-bootstrap";
-import ContactForm from "../components/ContactForm.js";
+import ContactForm from "../components/ContactForm";
 
 function Home() {
   console.log(skillsInformation);

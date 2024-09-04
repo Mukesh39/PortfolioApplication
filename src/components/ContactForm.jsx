@@ -28,7 +28,7 @@ const ContactForm = () => {
           }, 5000); // hide message after 5 seconds
         },
         (error) => {
-          setStateMessage("Something went wrong, please try again later");
+          setStateMessage("Network Issues Kindly Direct Mail to Muk.786422@gmail.com ");
           setIsSubmitting(false);
           setTimeout(() => {
             setStateMessage(null);
