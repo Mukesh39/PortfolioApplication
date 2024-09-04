@@ -46,7 +46,7 @@ const ContactForm = () => {
         </div>
         <div className="contact-form">
           <form onSubmit={sendEmail}>
-            <h1>Get in Touch</h1>
+            <h1>Get in Touch...</h1>
             <label>Name</label>
             <input type="text" name="user_name" required />
             <label>Email</label>
