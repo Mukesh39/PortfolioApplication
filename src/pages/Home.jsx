@@ -16,7 +16,7 @@ function Home() {
     <div className="home">
       {/* About Section */}
       <div className="about">
-        <img src={plane} alt="" srcset="" />
+        <img src={plane}     alt="" srcset="" />
         <h2>Mukesh Kumar</h2>
         <div className="prompt">
           <p>I am Web Developer </p>

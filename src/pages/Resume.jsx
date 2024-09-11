@@ -1,13 +1,15 @@
 import React from "react";
 import "../styles/Resume.css";
 
+import MukeshResume from '../pdf/Mukesh_Frontend_Webdev_Resume_.pdf'
+
 // import MukeshResume from "../pdf/MukeshResume.pdf"; 
 // Replace with the actual path to your resume PDF file
 
 import temp from "../assets/temp.png";
 const Resume = () => {
   const handleDownload = () => {
-     // window.open(MukeshResume, "_blank"); // Open the resume PDF in a new tab for download
+     window.open(MukeshResume, "_blank"); // Open the resume PDF in a new tab for download
      //use when pdf is saved in project
   };
   return (
@@ -24,9 +26,11 @@ const Resume = () => {
           className="btn btn-primary btn-lg"
           onClick={handleDownload}
         >
-          <a href="https://www.linkedin.com/in/kumarmukesh95/overlay/1719400159980/single-media-viewer/?profileId=ACoAACHU54UB94DwCC0rwRHOiUKf_JbXPxfZGfQ">
+          {/* <a href="https://www.linkedin.com/in/kumarmukesh95/overlay/1719400159980/single-media-viewer/?profileId=ACoAACHU54UB94DwCC0rwRHOiUKf_JbXPxfZGfQ">
             DOWNLOAD RESUME{" "}
-          </a>
+          </a> */}
+
+          Download
         </button>
       </div>
     </div>
