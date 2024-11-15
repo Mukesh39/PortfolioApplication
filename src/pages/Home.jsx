@@ -9,6 +9,8 @@ import { skillsInformation } from "../helpers/Data.js";
 import { Button } from "react-bootstrap";
 import ContactForm from "../components/ContactForm";
 
+import MarqueeSection from '../components/MarqueeSection.jsx'
+
 function Home() {
   console.log(skillsInformation);
 
@@ -37,7 +39,7 @@ function Home() {
       </div>
       <Aboutme />
       <hr />
-      <div className="skillsSection" id="skills">
+      {/* <div className="skillsSection" id="skills">
         <h1>Skills</h1>
         <hr />
         {skillsInformation.map((categoryObj, index) => (
@@ -52,8 +54,9 @@ function Home() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       {/* This is Quotes sections */}
+      <MarqueeSection/>
       <Quotes />
       <ContactForm />
     </div>
